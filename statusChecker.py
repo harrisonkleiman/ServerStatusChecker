@@ -11,11 +11,11 @@ def server_running(website):
     
 if __name__ == "__main__":
     while True:
-        website = input("Enter the website: ")
+        website = input("Enter the website (use '.com' at the end): ")
         if server_running(website):
-            print(f"{website} server is up!")
+            print(f"{website} is up!")
         else:
-            print(f"{website} server is down!")
+            print(f"{website} is down!")
         
         # Ask if the user wants to check another website
         check_again = input("Do you want to check another website? (y/n): ")
@@ -24,5 +24,6 @@ if __name__ == "__main__":
         
     print("Thank you for using this program!")
     
-    
+     
+
     

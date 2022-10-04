@@ -4,7 +4,7 @@
 
 # Steps to Use
 1. Fork this repository 
-2. Find & run the file titled "serverChecker.py"
+2. Find & run the file in terminal titled "serverChecker.py"
 
 # Note:
 - If you would like to check another site click "y"

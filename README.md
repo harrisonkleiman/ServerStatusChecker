@@ -1,6 +1,6 @@
 # ServerStatusChecker
 
-- This applivcation checks to see if a website's server is currently running.
+- This application checks to see if a website's server is currently running.
 
 # Steps to Use
 1. Fork this repository 

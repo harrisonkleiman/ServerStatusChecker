@@ -11,7 +11,7 @@ def server_running(website):
     
 if __name__ == "__main__":
     while True:
-        website = input("Enter the website (use '.com' at the end): ")
+        website = input("Enter a website (use '.com' at the end): ")
         if server_running(website):
             print(f"{website} is up!")
         else:
